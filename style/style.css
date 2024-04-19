@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Arimo:ital,wght@0,400..700;1,400..700&family=Freehand&family=Homemade+Apple&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Short+Stack&family=Varela&family=Varela+Round&family=Varta:wght@300..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+
+}
+
+:root {
+    --primary_color: #FF5588;
+}
+
+.container {
+    padding: 60px 70px;
+    margin: 20px 0px;
+}
+
+.portfolio {
+    display: flex;
+}
+
+.profile {
+    margin-top: 45px;
+    margin-left: 70px;
+}
+
+.profile-img img {
+    width: 270px;
+    border-radius: 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    width: 270px;
+    margin: 30px 0px 30px 0px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.hire-me-btn {
+    width: 230px;
+    margin-left: 22px;
+    padding: 13px 50px;
+    background: none;
+    border-radius: 15px;
+    border: 1px solid #333333;
+    color: #161616;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+/* right */
+
+.hello-heading {
+    color: var(--primary_color);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.portfolio-right {
+    margin-top: 55px;
+}
+
+.info h1 {
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 35px;
+}
+
+.info p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+/* projects */
+
+.projects {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    /* margin-right: 200px; */
+
+}
+
+.project-nmbrs {
+    text-align: center;
+}
+
+.project-nmbrs h1 {
+    color: var(--primary_color);
+    font-size: 60px;
+    font-weight: 400;
+
+}
+
+.project-nmbrs span {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+/* about section */
+.about-section {
+    margin-top: 150px;
+}
+
+.about-section h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--primary_color);
+}
+
+.about-section h1 {
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #181818;
+}
+
+.about-sectionp1 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #333333;
+}
+
+/* career-section */
+
+.career-section {
+    margin-top: 150px;
+}
+
+.education h2 {
+    margin-bottom: 23px;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--primary_color);
+}
+
+.education h1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #181818;
+}
+
+.experience span {
+
+    font-size: 15px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.experience h1 {
+    margin-top: 8px;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #181818;
+}
+
+/* services-section */
+.services {
+    margin-top: 150px;
+}
+
+.services-section h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--primary_color);
+}
+
+.services-section h1 {
+    margin: 15px 0px;
+    font-size: 37px;
+    font-weight: 400;
+    color: #181818;
+}
+
+.ser-prjct {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+   
+}
+
+.service-project {
+    border: 1px solid #333333;
+    width: 180px;
+    text-align: center;
+    padding: 25px 8px 25px 8px;
+    margin: 10px 15px 10px 0px;
+    border-radius: 10px;
+}
+
+.service-projects {
+    border: 1px solid #FF5588;
+    width: 180px;
+    text-align: center;
+    padding: 25px 8px 25px 8px;
+    margin: 10px 15px 10px 0px;
+    border-radius: 10px;
+}
+
+.service-projects h1 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #181818;
+    margin-bottom: 5px;
+}
+
+.service-projects span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.service-project h1 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #181818;
+    margin-bottom: 5px;
+}
+
+.service-project span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+
+}
+
+/* skill-section */
+
+.skill-section {
+    margin-top: 150px;
+}
+
+.skill-section h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--primary_color);
+}
+
+.skill-section h1 {
+    margin: 15px 0px;
+    font-size: 37px;
+    font-weight: 400;
+    color: #181818;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    width: 600px;
+    font-size: 40px;
+    color: #646464;
+}
+
+/* Portfolio */
+
+.portfolio-section {
+    margin-top: 150px;
+}
+
+.featured-portfolio h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--primary_color);
+}
+
+.featured-portfolio h1 {
+    margin: 15px 0px;
+    font-size: 37px;
+    font-weight: 400;
+    color: #181818;
+}
+
+.amazon-img img {
+    margin-top: 20px;
+    width: 600px;
+    border-radius: 20px;
+}
+
+.featured-imgs img {
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 295px;
+    border-radius: 20px;
+}
+
+/* testimonial-section */
+
+.testimonial-section {
+    margin-top: 150px;
+}
+
+.clients-trust h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--primary_color);
+}
+
+.clients-trust h1 {
+    margin: 15px 0px;
+    font-size: 37px;
+    font-weight: 400;
+    color: #181818;
+}
+
+.trust-card {
+    width: 500px;
+    border: 1px solid #333333;
+    padding: 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.client-profile {
+    display: flex;
+    align-items: center;
+
+}
+
+.client-name {
+    padding-left: 25px;
+}
+
+.client-name h1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #181818;
+}
+
+.client-name span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #181818;
+}
+
+.client-pera {
+    margin-top: 30px;
+    font-size: 19px;
+    font-weight: 400;
+    color: #181818;
+}
+
+/* brands */
+
+.brands {
+    margin-top: 150px;
+}
+
+.brand h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--primary_color);
+}
+
+.brand h1 {
+    margin: 15px 0px;
+    font-size: 37px;
+    font-weight: 400;
+    color: #181818;
+}
+
+.brand-names {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.brand-names img {
+    width: 90px;
+}
+
+/* form */
+
+.form-page {
+    margin-top: 150px;
+}
+
+.contact {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--primary_color);
+}
+
+.form {
+    margin-top: 50px;
+}
+
+.full-name input {
+    margin-bottom: 30px;
+    width: 400px;
+    margin-top: 10px;
+    padding: 8px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #99999926;
+    font-size: 16px;
+}
+
+.full-name input:focus {
+    outline: none;
+}
+
+.full-name label {
+
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.message label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.message textarea {
+    margin-bottom: 30px;
+    width: 400px;
+    padding: 8px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #99999926;
+    font-size: 16px;
+}
+
+.message textarea:focus {
+    outline: none;
+}
+
+.hire-btn{
+    padding: 15px 60px;
+    background: none;
+    border-radius: 15px;
+    border: 1px solid #999999;
+    color: #161616;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
